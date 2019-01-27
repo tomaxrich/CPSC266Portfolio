@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystylesheetswagZone.css">
+        <title>Ski Board & Surf Swag Zone</title>
+         <script src="snow-background.js"></script>
+        <script>
+            window.onload = function() {
+              try {
+                snow.count = 30;   // number of flakes
+                snow.delay = 20;   // timer interval
+                snow.minSpeed = 2; // minimum movement/time slice
+                snow.maxSpeed = 5; // maximum movement/time slice
+                snow.start();
+              } catch(e) {
+                // no snow 🙁
+              }
+            };
+        </script>
+    </head>
+    <h1 class="header"><a href="index.html">Ski Board & Surf</a></h1>
+    <body>
+    <ul id="mainnavul">
+            <li id="mainnavli">
+            <div class="dropdown">
+                <a href="how-to.html">How - To</a>
+                <div class="dropdown-content">
+                    <a href="skiinghow-to.html">Skiing How-to</a>
+                    <a href="snowboardinghow-to.html">Snowboarding How-to</a>
+                    <a href="surfinghow-to.html">Surfing How-to</a>
+                    <a href="longboardinghow-to.html">Longboarding How-to</a>
+                    <a href="skateboardinghow-to.html">Skateboarding How-to</a>
+                </div>
+                </div>
+            </li>  
+            <li id="mainnavli"><a href="meettheteam.html">Meet The Team</a></li>
+            <li id="mainnavli"><a href="photogallery.html">Photo Gallery</a></li>
+            <li id="mainnavli"><a href="UpComingEvents.html">Upcoming Events</a></li>
+            <li id="mainnavli"><a href="swagZone.html">Swag Zone</a></li>
+            <li id="mainnavli"><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    <h1 id="szh1">Swag Zone</h1>
+    <h3 id="szh3">Merchandise</h3>
+        <div id="back">
+        <table id="sztable">
+            <thead>
+                <tr>
+                    <td>Item</td>
+                    <td>Price</td>
+                    <td>Id Number</td>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td><img class="szimage" src="Item1.jpeg" alt="Insert Product Image Here"></td>
+                    <td>$9.99</td>
+                    <td>0001</td>
+                    </tr>
+                <tr>
+                    <td><img class="szimage" src="Item2.jpg" alt="Insert Product Image Here"></td>
+                    <td>$9.99</td>
+                    <td>0010</td>
+                    </tr>
+                <tr>
+                    <td><img class="szimage" src="Item3.jpeg" alt="Insert Product Image Here"></td>
+                    <td>$9.99</td>
+                    <td>0011</td>
+                    </tr>
+                <tr>
+                    <td><img class="szimage" src="Item4.jpeg" alt="Insert Product Image Here"></td>
+                    <td>$9.99</td>
+                    <td>0100</td>
+                    </tr>
+                <tr>
+                    <td><img class="szimage" src="Item5.jpeg" alt="Insert Product Image Here"></td>
+                    <td>$9.99</td>
+                    <td>0101</td>
+                    </tr>
+                    </tbody>
+        </table>
+        </div>
+        <h3 id="szh3">Order Form</h3>
+        <div id="back">
+        <ul id="szul">
+            <li id="szbutton">
+                <div id="szbuttondiv">
+                    <label>First Name</label>
+                    <input type="text" name="FirstName" placeholder="Enter First Name">
+                </div>
+                <div id="szbuttondiv">
+                    <label>Last Name</label>
+                    <input type="text" name="LastName" placeholder="Enter Last Name">
+                </div>
+                <div id="szbuttondiv">
+                    <label>Email</label>
+                    <input type="text" name="Email" placeholder="Enter Email address">
+                </div>
+                <div id="szbuttondiv">
+                    <label>Item Id Number</label>
+                    <input type="text" name="ItemIdNumber" placeholder="Enter Item's Id Number">
+                </div>
+                <button id="szbuttondiv">Submit</button>
+            </li>
+        </ul>
+        </div>
+    </body>
+</html>

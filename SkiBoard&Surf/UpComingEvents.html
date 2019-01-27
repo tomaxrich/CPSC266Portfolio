@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mystylesheetUpComingEvents.css">
+    <title>Ski Board & Surf Upcoming Events</title>
+     <script src="snow-background.js"></script>
+        <script>
+            window.onload = function() {
+              try {
+                snow.count = 30;   // number of flakes
+                snow.delay = 20;   // timer interval
+                snow.minSpeed = 2; // minimum movement/time slice
+                snow.maxSpeed = 5; // maximum movement/time slice
+                snow.start();
+              } catch(e) {
+                // no snow 🙁
+              }
+            };
+        </script>
+</head>
+<h1 class="header"><a href="index.html">Ski Board & Surf</a></h1>
+<body>
+    <ul id="mainnavul">
+            <li id="mainnavli">
+            <div class="dropdown">
+                <a href="how-to.html">How - To</a>
+                <div class="dropdown-content">
+                    <a href="skiinghow-to.html">Skiing How-to</a>
+                    <a href="snowboardinghow-to.html">Snowboarding How-to</a>
+                    <a href="surfinghow-to.html">Surfing How-to</a>
+                    <a href="longboardinghow-to.html">Longboarding How-to</a>
+                    <a href="skateboardinghow-to.html">Skateboarding How-to</a>
+                </div>
+                </div>
+            </li>   
+            <li id="mainnavli"><a href="meettheteam.html">Meet The Team</a></li>
+            <li id="mainnavli"><a href="photogallery.html">Photo Gallery</a></li>
+            <li id="mainnavli"><a href="UpComingEvents.html">Upcoming Events</a></li>
+            <li id="mainnavli"><a href="swagZone.html">Swag Zone</a></li>
+            <li id="mainnavli"><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    <h1 id="uch1">Upcoming Events</h1>
+    <h3 id="uch3">Monthly Calendar</h3>
+    <div id="back">
+    <div id="updiv">
+    <table>
+        <thead>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                </tr>
+            <tr><td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                </tr>
+            <tr>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+        </tbody>
+    </table>
+    </div>
+    </div>
+    <h3 id="uch3">Annual Events</h3>
+    <div id="back">
+    <ul id="ucul">
+        <li id="ucli">Event name, date</li>
+        <li id="ucli">Event name, date</li>
+        <li id="ucli">Event name, date</li>
+        <li id="ucli">Event name, date</li>
+        <li id="ucli">Event name, date</li>
+        <li id="ucli">Event name, date</li>
+        <li id="ucli">Event name, date</li>
+        </ul>
+    </div>
+        <h3 id="uch3">Submit Event Request</h3>
+    <div id="back">
+        <ul id="ucul">
+            <li id="ucbutton">
+                <div id="ucbuttondiv">
+                    <label>Name</label>
+                    <input type="text" name="Name" placeholder="Enter Name">
+                </div>
+                <div id="ucbuttondiv">
+                    <label>Email</label>
+                    <input type="text" name="Email" placeholder="Enter Email address">
+                </div>
+                <button id="ucbuttondiv">Submit</button>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

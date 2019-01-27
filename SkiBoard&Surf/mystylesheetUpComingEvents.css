@@ -1,0 +1,142 @@
+.header {
+    color: white;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 60px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+}
+/*This is the addition of the snow background*/
+canvas {
+    height: 100%;
+    width: 100%;
+}
+/*end of addition*/
+body {
+    border-style: hidden;
+    background-color: aliceblue;
+}
+/*navigation css*/
+#mainnavul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#mainnavli{
+    float: left;
+    width: 16.663%;
+    background-color: darkblue;
+}
+#mainnavli a{
+    display: block;
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px; 
+    text-align: center;
+    text-decoration: none;
+}
+#mainnavli a:hover {
+    background-color: darkred;
+    color: white;
+}
+#mainnavli.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    width: 16.663%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+/*body*/
+#uch1{
+    text-align: center;
+    font-size: 60px;
+}
+#uch3{
+    text-align: center;
+    font-size: 40px;
+}
+#updiv{
+    background-color: darkgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+#updiv table{
+    width: 100%;
+}
+#updiv th{
+    width: auto;
+    width: 14.28%;
+    height: 50px;
+    border: solid;
+    text-align: center;
+}
+#updiv td{
+    width:14.28%;
+    height: 50px;
+    border: solid;
+    text-align: center;
+}
+#ucul{
+    background-color: darkgray;
+    border: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+#ucli{
+    list-style-type: none;
+    height: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;;
+    
+}
+#ucbutton{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 270px;
+}
+#ucbuttondiv{
+    height: 30px;
+    align-content: center;
+    width: 270px;
+}
+#back{
+    background-color: darkblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}

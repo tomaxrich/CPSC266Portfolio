@@ -1,0 +1,216 @@
+.header {
+    color: white;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 60px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+}
+/*This is the addition of the snow background*/
+canvas {
+    height: 100%;
+    width: 100%;
+}
+/*end of addition*/
+body {
+    border-style: hidden;
+    background-color: aliceblue;
+}
+/*navigation css*/
+#mainnavul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#mainnavli{
+    float: left;
+    width: 16.663%;
+    background-color: darkblue;
+}
+#mainnavli a{
+    display: block;
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px; 
+    text-align: center;
+    text-decoration: none;
+}
+#mainnavli a:hover {
+    background-color: darkred;
+    color: white;
+}
+#mainnavli.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    width: 16.663%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+/*body*/
+#mainh1{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    clear: both;
+}
+#mpgh3{
+    clear: both;
+    text-align: center;
+    font-size: 40px;
+}
+#pgli{
+    background-color: darkgray;
+    border: solid;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pgul{
+    padding-top: 15px;
+    background-color: darkgray;
+    border: solid;
+    width: 85%;
+    padding-right: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+#pgh3{
+    text-align: center;
+    font-size: 20px;
+}
+#pgluimg{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pgbutton{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 270px;
+}
+#pgbuttondiv{
+    height: 30px;
+    align-content: center;
+    width: 270px;
+}
+#back{
+    background-color: darkblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Beginning of Modal content*/
+.column{
+    float: left;
+    width: 25%;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+img.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+img.hover-shadow {
+  transition: 0.3s;
+}
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystylesheetphotogallery.css">
+        <title>Ski Board & Surf Gallery</title>
+         <script src="snow-background.js"></script>
+        <script>
+            window.onload = function() {
+              try {
+                snow.count = 30;   // number of flakes
+                snow.delay = 20;   // timer interval
+                snow.minSpeed = 2; // minimum movement/time slice
+                snow.maxSpeed = 5; // maximum movement/time slice
+                snow.start();
+              } catch(e) {
+                // no snow 🙁
+              }
+            };
+        </script>
+        </head>
+    <h1 class="header"><a href="index.html">Ski Board & Surf</a></h1>
+    <body>
+        <ul id="mainnavul">
+            <li id="mainnavli">
+            <div class="dropdown">
+                <a href="how-to.html">How - To</a>
+                <div class="dropdown-content">
+                    <a href="skiinghow-to.html">Skiing How-to</a>
+                    <a href="snowboardinghow-to.html">Snowboarding How-to</a>
+                    <a href="surfinghow-to.html">Surfing How-to</a>
+                    <a href="longboardinghow-to.html">Longboarding How-to</a>
+                    <a href="skateboardinghow-to.html">Skateboarding How-to</a>
+                </div>
+                </div>
+            </li>    
+            <li id="mainnavli"><a href="meettheteam.html">Meet The Team</a></li>
+            <li id="mainnavli"><a href="photogallery.html">Photo Gallery</a></li>
+            <li id="mainnavli"><a href="UpComingEvents.html">Upcoming Events</a></li>
+            <li id="mainnavli"><a href="swagZone.html">Swag Zone</a></li>
+            <li id="mainnavli"><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    <h1 id="mainh1">Photo Gallery</h1>
+    <h3 id="mpgh3">Current Photos</h3>
+        <div id="back">
+        <ul id="pgul">
+            <li id="pgli">
+                <h3 id="pgh3">Epic Surf 1</h3>
+                <img id="pgluimg" src="EpicSurf1.jpeg" onclick="openModal(1)" alt="Insert Photo Here">
+                <blockquote cite="https://www.cavemag.com/"></blockquote>
+                <div id="myModal1" class="modal">
+                <span class="close cursor" onclick="closeModal(1)">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides1">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicSurf1Gallery1.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides1">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicSurf1Gallery2.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides1">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicSurf1Gallery3.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides1">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicSurf1Gallery4.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!--
+                        <div class="column">
+                            <img class="demo1" src="EpicSurf1Gallery1.jpg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo1" src="EpicSurf1Gallery2.jpg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo1" src="EpicSurf1Gallery3.jpg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo1" src="EpicSurf1Gallery4.jpg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+-->
+                    </div>
+                </div>
+                </li>
+            <li id="pgli">
+                <h3 id="pgh3">Epic Surf 2</h3>
+                <img id="pgluimg" src="EpicSurf2.jpeg" onclick="openModal(2)" alt="Insert Photo Here">
+                <blockquote cite="https://cottagelife.com/outdoors/8-amazing-places-to-surf-in-canada/"></blockquote>
+                <div id="myModal2" class="modal">
+                <span class="close cursor" onclick="closeModal(2)">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides2">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicSurf2Gallery1.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides2">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicSurf2Gallery2.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides2">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicSurf2Gallergy3.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides2">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicSurf2Gallery4.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!--
+                        <div class="column">
+                            <img class="demo2" src="EpicSurf2Gallery1.jpeg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo2" src="EpicSurf2Gallery2.jpg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo2" src="EpicSurf2Gallergy3.jpg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo2" src="EpicSurf2Gallery4.jpg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+                        -->
+                    </div>
+                </div>
+                </li>
+            <li id="pgli">
+                <h3 id="pgh3">Epic Ski 1</h3>
+                <img id="pgluimg" src="EpicSki1.jpg" onclick="openModal(3)" alt="Insert Photo Here">
+                <blockquote cite="https://www.whistler.com/skiing/"></blockquote>
+                <div id="myModal3" class="modal">
+                <span class="close cursor" onclick="closeModal(3)">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides3">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicSki1Gallery1.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicSki1Gallery2.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicSki1Gallery3.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicSki1Gallery4.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!--
+                        <div class="column">
+                            <img class="demo3" src="EpicSki1Gallery1.jpg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo3" src="EpicSki1Gallery2.jpeg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo3" src="EpicSki1Gallery3.jpeg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo3" src="EpicSki1Gallery4.jpeg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+                        -->
+                    </div>
+                </div>
+                </li>
+            <li id="pgli">
+                <h3 id="pgh3">Epic Ski 2</h3>
+                <img id="pgluimg" src="EpicSki2.jpg" onclick="openModal(4)" alt="Insert Photo Here">
+                <blockquote cite="https://www.bellacoolaheliskiing.com/"></blockquote>
+                <div id="myModal4" class="modal">
+                <span class="close cursor" onclick="closeModal(4)">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides4">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicSki2Gallery1.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides4">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicSki2Gallery2.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides4">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicSki2Gallery3.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides4">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicSki2Gallery4.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!--
+                        <div class="column">
+                            <img class="demo4" src="EpicSki2Gallery1.jpeg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo4" src="EpicSki2Gallery2.jpeg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo4" src="EpicSki2Gallery3.jpeg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo4" src="EpicSki2Gallery4.jpeg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+                -->
+                    </div>
+                </div>
+                </li>
+            <li id="pgli">
+                <h3 id="pgh3">Epic Snowboard 1</h3>
+                <img id="pgluimg" src="EpicSnowboard1.jpg" onclick="openModal(5)" alt="Insert Photo Here">
+                <blockquote cite="https://www.teamgb.com/news/sport-in-the-spotlight-snowboarding"></blockquote>
+                <div id="myModal5" class="modal">
+                <span class="close cursor" onclick="closeModal(5)">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides5">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicSnowboard1Gallery1.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides5">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicSnowboard1Gallery2.jpeg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides5">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicSnowboard1Gallery3.jpeg" style="width:100%">
+                        </div>
+                        <div class="mySlides5">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicSnowboard1Gallery4.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!--
+                        <div class="column">
+                            <img class="demo5" src="EpicSnowboard1Gallery1.jpg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo5" src="EpicSnowboard1Gallery2.jpeg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo5" src="EpicSnowboard1Gallery3.jpeg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo5" src="EpicSnowboard1Gallery4.jpg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+                    -->
+                    </div>
+                </div>
+                </li>
+            <li id="pgli">
+                <h3 id="pgh3">Epic Snowboard 2</h3>
+                <img id="pgluimg" src="EpicSnowboard2.jpg" onclick="openModal(6)" alt="Insert Photo Here">
+                <blockquote cite="https://www.maennlichen.ch/en/snowboarding.html"></blockquote>
+                <div id="myModal6" class="modal">
+                <span class="close cursor" onclick="closeModal(6)">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides6">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicSnowboard2Gallery1.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides6">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicSnowboard2Gallery2.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides6">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicSnowboard2Gallery3.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides6">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicSnowboard2Gallery4.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!--
+                        <div class="column">
+                            <img class="demo6" src="EpicSnowboard2Gallery1.jpg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo6" src="EpicSnowboard2Gallery2.jpg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo6" src="EpicSnowboard2Gallery3.jpg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo6" src="EpicSnowboard2Gallery4.jpg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+                        -->
+                    </div>
+                </div>
+                </li>
+            <li id="pgli">
+                <h3 id="pgh3">Epic Longboard</h3>
+                <img id="pgluimg" src="EpicLongboard1.jpg" onclick="openModal(7)" alt="Insert Photo Here">
+                <blockquote cite="https://vimeo.com/93351809"></blockquote>
+                <div id="myModal7" class="modal">
+                <span class="close cursor" onclick="closeModal(7); ">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides7">
+                            <div class="numbertext">1/4</div>
+                            <img src="EpicLongboard1Gallery1.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides7">
+                            <div class="numbertext">2/4</div>
+                            <img src="EpicLongboard1Gallery2.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides7">
+                            <div class="numbertext">3/4</div>
+                            <img src="EpicLongboard1Gallery3.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <div class="mySlides7">
+                            <div class="numbertext">4/4</div>
+                            <img src="EpicLongboard1Gallery4.jpg" alt="Insert Photo Here" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                       <!--
+                        <div class="column">
+                           <img class="demo7" src="EpicLongboard1Gallery1.jpg" alt="Insert Photo Here" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo7" src="EpicLongboard1Gallery2.jpg" alt="Insert Photo Here" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo7" src="EpicLongboard1Gallery3.jpg" alt="Insert Photo Here" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo7" src="EpicLongboard1Gallery4.jpg" alt="Insert Photo Here" onclick="currentSlide(4)">
+                        </div>
+                        -->
+                    </div>
+                </div>
+                </li>
+            </ul>
+        </div>
+        <h3 id="mpgh3">Post a Pic</h3>
+        <div id="back">
+        <ul id="pgul">
+            <li id="pgbutton">
+                <div id="pgbuttondiv">
+                    <label>Photo Name</label>
+                    <input type="text" name="Photo-Name" placeholder="Enter Photo Name">
+                </div>
+                <div id="pgbuttondiv">
+                    <label>Filename</label>
+                    <input type="text" name="File-Name" placeholder="Enter File.jpeg">
+                </div>
+                <button id="pgbuttondiv">Submit</button>
+            </li>
+        </ul>
+        </div>
+        </body>
+</html>
+<script>
+// Open the Modal
+function openModal(x) {
+    if(x == 1){
+        document.getElementById("myModal1").style.display = "block";
+    }
+    else if(x == 2){
+        document.getElementById("myModal2").style.display = "block";
+    }
+    else if(x == 3){
+        document.getElementById("myModal3").style.display = "block";
+    }
+    else if(x == 4){
+        document.getElementById("myModal4").style.display = "block";
+    }
+    else if(x == 5){
+        document.getElementById("myModal5").style.display = "block";
+    }
+    else if(x == 6){
+        document.getElementById("myModal6").style.display = "block";
+    }
+    else if(x == 7){
+        document.getElementById("myModal7").style.display = "block";
+    }
+}
+
+// Close the Modal
+function closeModal(x) {
+    if(x == 1){
+        document.getElementById("myModal1").style.display = "none";
+    }
+    else if(x == 2){
+        document.getElementById("myModal2").style.display = "none";
+    }
+    else if(x == 3){
+        document.getElementById("myModal3").style.display = "none";
+    }
+    else if(x == 4){
+        document.getElementById("myModal4").style.display = "none";
+    }
+    else if(x == 5){
+        document.getElementById("myModal5").style.display = "none";
+    }
+    else if(x == 6){
+        document.getElementById("myModal6").style.display = "none";
+    }
+    else if(x == 7){
+        document.getElementById("myModal7").style.display = "none";
+    }
+}
+
+var slideId = 1
+showSlides(1);
+
+
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n, x);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+var slides;
+var dots;
+if(n == 1){
+  slides = document.getElementsByClassName("mySlides1");
+  dots = document.getElementsByClassName("demo1");
+}
+    else if(n == 2){
+        slides = document.getElementsByClassName("mySlides2");
+        dots = document.getElementsByClassName("demo2");
+    }
+    else if(n == 3){
+        slides = document.getElementsByClassName("mySlides3");
+        dots = document.getElementsByClassName("demo3");
+    }
+    else if(n == 4){
+        slides = document.getElementsByClassName("mySlides4");
+        dots = document.getElementsByClassName("demo4");
+    }
+    else if(n == 5){
+        slides = document.getElementsByClassName("mySlides5");
+        dots = document.getElementsByClassName("demo5");
+    }
+    else if(n == 6){
+        slides = document.getElementsByClassName("mySlides6");
+        dots = document.getElementsByClassName("demo6");
+    }
+    else if(n == 7){
+        slides = document.getElementsByClassName("mySlides7");
+        dots = document.getElementsByClassName("demo7");
+    }
+    
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  /*for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }*/
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>

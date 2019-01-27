@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystylesheetmeettheteam.css">
+        <script src="jquery-3.3.1.slim.js">
+            $("#hide").on({
+                load: function(){
+                $("#hide").hide();
+            }
+            },{
+                click: function(){
+                $("#hide").show();
+            }
+            });
+       </script>
+        <title>Ski Board & Surf Meet The Team</title>
+         <script src="snow-background.js"></script>
+        <script>
+            window.onload = function() {
+              try {
+                snow.count = 30;   // number of flakes
+                snow.delay = 20;   // timer interval
+                snow.minSpeed = 2; // minimum movement/time slice
+                snow.maxSpeed = 5; // maximum movement/time slice
+                snow.start();
+              } catch(e) {
+                // no snow 🙁
+              }
+            };
+        </script>
+    </head>
+        <h1 class="header"><a href="index.html">Ski Board & Surf</a></h1>
+    <body>
+        <ul id="mainnavul">
+            <li id="mainnavli">
+            <div class="dropdown">
+                <a href="how-to.html">How - To</a>
+                <div class="dropdown-content">
+                    <a href="skiinghow-to.html">Skiing How-to</a>
+                    <a href="snowboardinghow-to.html">Snowboarding How-to</a>
+                    <a href="surfinghow-to.html">Surfing How-to</a>
+                    <a href="longboardinghow-to.html">Longboarding How-to</a>
+                    <a href="skateboardinghow-to.html">Skateboarding How-to</a>
+                </div>
+                </div>
+            </li>    
+            <li id="mainnavli"><a href="meettheteam.html">Meet The Team</a></li>
+            <li id="mainnavli"><a href="photogallery.html">Photo Gallery</a></li>
+            <li id="mainnavli"><a href="UpComingEvents.html">Upcoming Events</a></li>
+            <li id="mainnavli"><a href="swagZone.html">Swag Zone</a></li>
+            <li id="mainnavli"><a href="FAQ.html">FAQ</a></li>
+        </ul>
+        <h1 id="meettheteamh1">Meet The Team</h1>
+        <h2 id="meettheteamh2">Current Team Members</h2>
+        <ul class ="main">
+            <li class="block">
+                <h5>James</h5>
+                <span id="hide">
+                <h6>Type of Club Member: Rad Surfer</h6>
+                <img src="firststockimage.jpeg" alt="Insert Picture">
+                <blockquote cite="https://www.stockvault.net/free-photos/headshot"></blockquote>
+                <p>James is in his third year, and enjoys long walks in the park. He spends his time studying, and helping plan mad adventures</p>
+                <h6 id="specialh6"><a href="">Social Media Profile</a></h6>
+                </span>
+                </li>
+            <li class="block">
+                <h5>Fred</h5>
+                <span id="hide">
+                <h6>Type of Club Member: Bunny Hill Baller</h6>
+                <img src="secondstockimage.jpeg" alt="Insert Picture">
+                <blockquote cite="https://www.dreamstime.com/stock-photo-headshot-caucasian-man-his-late-twenties-designer-stubble-wearing-aviator-sunglasses-outdoors-tropical-image81216530"></blockquote>
+                <p>Fred is in his first year, and eager to help out with the club. He's stoked to learn new skills and make new friends.</p>
+                <h6 id="specialh6"><a href="">Social Media Profile</a></h6>
+                </span>
+                </li>
+            <li class="block">
+                <h5>Jane</h5>
+                <span id="hide">
+                <h6>Type of Club Member: Double Black Gnar Queen</h6>
+                <img src="thirdstockimage.jpeg" alt="Insert Picture">
+                <blockquote cite="https://www.dreamstime.com/stock-photo-young-woman-wearing-tweed-flat-cap-old-fashioned-portrait-brown-clothes-long-hair-image69730285"></blockquote>
+                <p>Jane doesn't talk much anymore... She just visualizes her next line.</p>
+                <h6 id="specialh6"><a href="">Social Media Profile</a></h6>
+                </span>
+                </li>
+            <li class="block">
+                <h5>Emily</h5>
+                <span id="hide">
+                <h6>Type of Club Member: Thrasher</h6>
+                <img src="fourthstockimage.jpeg" alt="Insert Picture">
+                <blockquote cite="https://www.dreamstime.com/photos-images/asian-woman-headshot.html"></blockquote>
+                <p>Emily is a eager Beaver, ready to bust a move. She spends her time at the local park trying to enter the hall of meat.</p>
+                <h6 id="specialh6"><a href="">Social Media Profile</a></h6>
+                </span>
+                </li>
+            <li class="block">
+                <h5>Charles</h5>
+                <span id="hide">
+                <h6>Type of Club Member: Webmaster</h6>
+                <img src="fifthstockimage.jpeg" alt="Insert Picture">
+                <blockquote cite="https://depositphotos.com/110466796/stock-photo-headshot-portrait-of-handsome-young.html"></blockquote>
+                <p>Charles spends his days locked in his room coding. We don't need to talk about Charles</p>
+                <h6 id="specialh6"><a href="">Social Media Profile</a></h6>
+                </span>
+                </li>
+            <li class="block">
+                <h5>Raksha</h5>
+                <span id="hide">
+                <h6>Type of Club Member: Downhill Demon</h6>
+                <img src="sixthstockimage.jpeg" alt="Insert Picture">
+                <blockquote cite="https://www.bbc.com/news/world-asia-43578604"></blockquote>
+                <p>Raksha don't give a fuck. She straight lines twenty foot drops for breakfast. If you can't keep up then shuff off.</p>
+                <h6 id="specialh6"><a href="">Social Media Profile</a></h6>
+                </span>
+                </li>
+        </ul>
+    </body>
+</html>
